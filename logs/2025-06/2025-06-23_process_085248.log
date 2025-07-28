@@ -1,0 +1,97 @@
+[2025-06-23 08:52:48.518] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-06-23_process_085248.log
+[2025-06-23 08:52:48.518] [INFO] [MAIN] - Iniciando proceso
+[2025-06-23 08:53:00.143] [INFO] [AUTH] - Iniciando login | Hora de inicio: 08:53:00.143704 AM
+[2025-06-23 08:53:02.227] [INFO] [AUTH] - Navegación: Seleccionado 'Monitor EDC'
+[2025-06-23 08:53:02.938] [INFO] [AUTH] - Credenciales enviadas | 3395/t57973
+[2025-06-23 08:53:06.515] [INFO] [AUTH] - Login exitoso | Redirección completada
+[2025-06-23 08:53:07.190] [INFO] [SEMANAL] - Preparando descarga semanal (2025-06-16 a 2025-06-22)
+[2025-06-23 08:53:07.892] [INFO] [DESCARGA] - Abriendo panel de filtros...
+[2025-06-23 08:53:07.893] [INFO] [BUSCADOR] - Verificando visibilidad del panel de filtros...
+[2025-06-23 08:53:07.909] [INFO] [BUSCADOR] - Panel de filtros está cerrado. Procediendo a abrir...
+[2025-06-23 08:53:08.272] [INFO] [BUSCADOR] - Panel de filtros abierto correctamente.
+[2025-06-23 08:53:08.272] [INFO] [DESCARGA] - Seleccionando cadena CHEDRAUI...
+[2025-06-23 08:53:08.334] [INFO] [DESCARGA] - Configurando filtros para 2025-06-16 a 2025-06-22
+[2025-06-23 08:53:08.335] [INFO] [BUSCADOR] - Configurando fechas: desde='2025-06-16', hasta='2025-06-22'
+[2025-06-23 08:53:08.866] [INFO] [BUSCADOR] - Fechas establecidas en el DOM: desde='2025-06-16', hasta='2025-06-22'
+[2025-06-23 08:53:08.866] [INFO] [DESCARGA] - Ejecutando búsqueda...
+[2025-06-23 08:53:14.431] [INFO] [BUSCADOR] - Configurando paginación a 'Todos'
+[2025-06-23 08:53:15.542] [INFO] [DESCARGA] - Iniciando descarga en \\Srvcomplan\oc
+[2025-06-23 08:53:15.542] [DEBUG] [DOWNLOAD] - Parámetros recibidos: Carpeta=\\Srvcomplan\oc | Fechas=2025-06-16→2025-06-22
+[2025-06-23 08:53:16.932] [INFO] [DOWNLOAD] - Iniciando descarga de 73 archivos
+[2025-06-23 08:53:17.275] [INFO] [DOWNLOAD] - OC X3E9QY descargada directamente
+[2025-06-23 08:53:18.595] [INFO] [DOWNLOAD] - OC X3E9SH descargada directamente
+[2025-06-23 08:53:19.925] [INFO] [DOWNLOAD] - OC X3E9ZK descargada directamente
+[2025-06-23 08:53:21.303] [INFO] [DOWNLOAD] - OC X3EA4V descargada directamente
+[2025-06-23 08:53:22.747] [INFO] [DOWNLOAD] - OC X3EAAO descargada directamente
+[2025-06-23 08:53:24.113] [INFO] [DOWNLOAD] - OC X3EACP descargada directamente
+[2025-06-23 08:53:25.429] [INFO] [DOWNLOAD] - OC X3EAF3 descargada directamente
+[2025-06-23 08:53:26.719] [INFO] [DOWNLOAD] - OC X3EAIW descargada directamente
+[2025-06-23 08:53:28.035] [INFO] [DOWNLOAD] - OC X3EAM0 descargada directamente
+[2025-06-23 08:53:29.384] [INFO] [DOWNLOAD] - OC X3EAPK descargada directamente
+[2025-06-23 08:53:30.879] [INFO] [DOWNLOAD] - OC X3EASS descargada directamente
+[2025-06-23 08:53:32.201] [INFO] [DOWNLOAD] - OC X3EATY descargada directamente
+[2025-06-23 08:53:33.529] [INFO] [DOWNLOAD] - OC X3EAYC descargada directamente
+[2025-06-23 08:53:34.938] [INFO] [DOWNLOAD] - OC X3EB1R descargada directamente
+[2025-06-23 08:53:36.243] [INFO] [DOWNLOAD] - OC X3EBJY descargada directamente
+[2025-06-23 08:53:37.559] [INFO] [DOWNLOAD] - OC X3EBKQ descargada directamente
+[2025-06-23 08:53:38.858] [INFO] [DOWNLOAD] - OC X3EBML descargada directamente
+[2025-06-23 08:53:40.176] [INFO] [DOWNLOAD] - OC X3EBOS descargada directamente
+[2025-06-23 08:53:41.498] [INFO] [DOWNLOAD] - OC X3EBSF descargada directamente
+[2025-06-23 08:53:42.874] [INFO] [DOWNLOAD] - OC X3EC3T descargada directamente
+[2025-06-23 08:53:44.216] [INFO] [DOWNLOAD] - OC X3EC6Q descargada directamente
+[2025-06-23 08:53:45.527] [INFO] [DOWNLOAD] - OC X3EC94 descargada directamente
+[2025-06-23 08:53:46.858] [INFO] [DOWNLOAD] - OC X3ECAR descargada directamente
+[2025-06-23 08:53:48.196] [INFO] [DOWNLOAD] - OC X3ECCP descargada directamente
+[2025-06-23 08:53:49.509] [INFO] [DOWNLOAD] - OC X3ECL1 descargada directamente
+[2025-06-23 08:53:50.829] [INFO] [DOWNLOAD] - OC X3ECTG descargada directamente
+[2025-06-23 08:53:52.157] [INFO] [DOWNLOAD] - OC X3ED1Q descargada directamente
+[2025-06-23 08:53:53.495] [INFO] [DOWNLOAD] - OC X3EDCG descargada directamente
+[2025-06-23 08:53:54.795] [INFO] [DOWNLOAD] - OC X3EDEM descargada directamente
+[2025-06-23 08:53:56.123] [INFO] [DOWNLOAD] - OC X3EDGE descargada directamente
+[2025-06-23 08:53:57.404] [INFO] [DOWNLOAD] - OC X3EDI6 descargada directamente
+[2025-06-23 08:53:58.720] [INFO] [DOWNLOAD] - OC X3EDLI descargada directamente
+[2025-06-23 08:54:00.039] [INFO] [DOWNLOAD] - OC X3EDNZ descargada directamente
+[2025-06-23 08:54:01.318] [INFO] [DOWNLOAD] - OC X3EDPK descargada directamente
+[2025-06-23 08:54:02.651] [INFO] [DOWNLOAD] - OC X3EDTA descargada directamente
+[2025-06-23 08:54:03.935] [INFO] [DOWNLOAD] - OC X3EDYY descargada directamente
+[2025-06-23 08:54:05.322] [INFO] [DOWNLOAD] - OC X3EDZR descargada directamente
+[2025-06-23 08:54:06.625] [INFO] [DOWNLOAD] - OC X3EE1D descargada directamente
+[2025-06-23 08:54:07.952] [INFO] [DOWNLOAD] - OC X3EEN4 descargada directamente
+[2025-06-23 08:54:09.288] [INFO] [DOWNLOAD] - OC X3EFBJ descargada directamente
+[2025-06-23 08:54:10.710] [INFO] [DOWNLOAD] - OC X3EFP7 descargada directamente
+[2025-06-23 08:54:12.033] [INFO] [DOWNLOAD] - OC X3EFPO descargada directamente
+[2025-06-23 08:54:13.354] [INFO] [DOWNLOAD] - OC X3EFTW descargada directamente
+[2025-06-23 08:54:14.734] [INFO] [DOWNLOAD] - OC X3EFWQ descargada directamente
+[2025-06-23 08:54:16.072] [INFO] [DOWNLOAD] - OC X3EFZZ descargada directamente
+[2025-06-23 08:54:17.451] [INFO] [DOWNLOAD] - OC X3EG3P descargada directamente
+[2025-06-23 08:54:18.753] [INFO] [DOWNLOAD] - OC X3EG5K descargada directamente
+[2025-06-23 08:54:20.135] [INFO] [DOWNLOAD] - OC X3EG6M descargada directamente
+[2025-06-23 08:54:21.499] [INFO] [DOWNLOAD] - OC X3EG8V descargada directamente
+[2025-06-23 08:54:22.831] [INFO] [DOWNLOAD] - OC X3EGAZ descargada directamente
+[2025-06-23 08:54:24.201] [INFO] [DOWNLOAD] - OC X3EGK7 descargada directamente
+[2025-06-23 08:54:25.531] [INFO] [DOWNLOAD] - OC X3EH6U descargada directamente
+[2025-06-23 08:54:26.905] [INFO] [DOWNLOAD] - OC X3EIQI descargada directamente
+[2025-06-23 08:54:28.211] [INFO] [DOWNLOAD] - OC X3EIXI descargada directamente
+[2025-06-23 08:54:29.495] [INFO] [DOWNLOAD] - OC X3EJ7L descargada directamente
+[2025-06-23 08:54:30.879] [INFO] [DOWNLOAD] - OC X3EJJL descargada directamente
+[2025-06-23 08:54:32.231] [INFO] [DOWNLOAD] - OC X3EJO2 descargada directamente
+[2025-06-23 08:54:33.526] [INFO] [DOWNLOAD] - OC X3EJOS descargada directamente
+[2025-06-23 08:54:34.877] [INFO] [DOWNLOAD] - OC X3EJQS descargada directamente
+[2025-06-23 08:54:36.229] [INFO] [DOWNLOAD] - OC X3EJU5 descargada directamente
+[2025-06-23 08:54:37.540] [INFO] [DOWNLOAD] - OC X3EJVQ descargada directamente
+[2025-06-23 08:54:38.840] [INFO] [DOWNLOAD] - OC X3EJY2 descargada directamente
+[2025-06-23 08:54:40.139] [INFO] [DOWNLOAD] - OC X3EKIA descargada directamente
+[2025-06-23 08:54:41.456] [INFO] [DOWNLOAD] - OC X3ELRG descargada directamente
+[2025-06-23 08:54:42.808] [INFO] [DOWNLOAD] - OC X3ELRI descargada directamente
+[2025-06-23 08:54:44.113] [INFO] [DOWNLOAD] - OC X3ELRX descargada directamente
+[2025-06-23 08:54:45.428] [INFO] [DOWNLOAD] - OC X3ELS8 descargada directamente
+[2025-06-23 08:54:46.798] [INFO] [DOWNLOAD] - OC X3ELSO descargada directamente
+[2025-06-23 08:54:48.109] [INFO] [DOWNLOAD] - OC X3ELSZ descargada directamente
+[2025-06-23 08:54:49.425] [INFO] [DOWNLOAD] - OC X3ELT4 descargada directamente
+[2025-06-23 08:54:50.770] [INFO] [DOWNLOAD] - OC X3ELTB descargada directamente
+[2025-06-23 08:54:52.101] [INFO] [DOWNLOAD] - OC X3ELUB descargada directamente
+[2025-06-23 08:54:53.455] [INFO] [DOWNLOAD] - OC X3ELUE descargada directamente
+[2025-06-23 08:54:55.343] [INFO] [DOWNLOAD] - Descarga completada en \\Srvcomplan\oc
+[2025-06-23 08:54:55.343] [INFO] [DESCARGA] - Proceso de descarga completado
+[2025-06-23 08:54:55.343] [INFO] [SEMANAL] - Descarga semanal completada
+[2025-06-23 08:54:56.723] [INFO] [MAIN] - Proceso completado exitosamente

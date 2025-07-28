@@ -1,0 +1,34 @@
+[2025-05-11 14:13:22.965] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-05-11_process_141322.log
+[2025-05-11 14:13:22.966] [INFO] [MAIN] - Iniciando proceso
+[2025-05-11 14:13:34.002] [INFO] [AUTH] - Iniciando login | Hora de inicio: 02:13:34.002818 PM
+[2025-05-11 14:13:34.971] [INFO] [AUTH] - Navegación: Seleccionado 'Monitor EDC'
+[2025-05-11 14:13:36.080] [INFO] [AUTH] - Credenciales enviadas | 3395/t57973
+[2025-05-11 14:13:37.455] [INFO] [AUTH] - Login exitoso | Redirección completada
+[2025-05-11 14:13:38.604] [INFO] [DIARIA] - Preparando descarga diaria para 2025-05-10
+[2025-05-11 14:13:39.243] [INFO] [DESCARGA] - Abriendo panel de filtros...
+[2025-05-11 14:13:39.245] [INFO] [BUSCADOR] - Verificando visibilidad del panel de filtros...
+[2025-05-11 14:13:39.263] [INFO] [BUSCADOR] - Panel de filtros está cerrado. Procediendo a abrir...
+[2025-05-11 14:13:39.646] [INFO] [BUSCADOR] - Panel de filtros abierto correctamente.
+[2025-05-11 14:13:39.647] [INFO] [DESCARGA] - Seleccionando cadena CHEDRAUI...
+[2025-05-11 14:13:39.696] [INFO] [DESCARGA] - Configurando filtros para 2025-05-10 a 2025-05-10
+[2025-05-11 14:13:39.697] [INFO] [BUSCADOR] - Configurando fechas: desde='2025-05-10', hasta='2025-05-10'
+[2025-05-11 14:13:40.233] [INFO] [BUSCADOR] - Fechas establecidas en el DOM: desde='2025-05-10', hasta='2025-05-10'
+[2025-05-11 14:13:40.234] [INFO] [DESCARGA] - Ejecutando búsqueda...
+[2025-05-11 14:13:45.799] [INFO] [BUSCADOR] - Configurando paginación a 'Todos'
+[2025-05-11 14:13:46.863] [INFO] [DESCARGA] - Iniciando descarga en \\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-10
+[2025-05-11 14:13:46.864] [DEBUG] [DOWNLOAD] - Parámetros recibidos: Carpeta=\\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-10 | Fechas=2025-05-10→2025-05-10
+[2025-05-11 14:13:48.151] [INFO] [DOWNLOAD] - Iniciando descarga de 10 archivos
+[2025-05-11 14:13:48.499] [INFO] [DOWNLOAD] - OC X3CSV1 descargada directamente
+[2025-05-11 14:13:49.765] [INFO] [DOWNLOAD] - OC X3CSV6 descargada directamente
+[2025-05-11 14:13:51.134] [INFO] [DOWNLOAD] - OC X3CSVI descargada directamente
+[2025-05-11 14:13:52.426] [INFO] [DOWNLOAD] - OC X3CSW0 descargada directamente
+[2025-05-11 14:13:53.762] [INFO] [DOWNLOAD] - OC X3CSWF descargada directamente
+[2025-05-11 14:13:55.021] [INFO] [DOWNLOAD] - OC X3CSWS descargada directamente
+[2025-05-11 14:13:56.321] [INFO] [DOWNLOAD] - OC X3CSX1 descargada directamente
+[2025-05-11 14:13:57.644] [INFO] [DOWNLOAD] - OC X3CSX5 descargada directamente
+[2025-05-11 14:13:58.976] [INFO] [DOWNLOAD] - OC X3CT48 descargada directamente
+[2025-05-11 14:14:00.358] [INFO] [DOWNLOAD] - OC X3CT4G descargada directamente
+[2025-05-11 14:14:02.388] [INFO] [DOWNLOAD] - Descarga completada en \\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-10
+[2025-05-11 14:14:02.390] [INFO] [DESCARGA] - Proceso de descarga completado
+[2025-05-11 14:14:02.391] [INFO] [DIARIA] - Descarga diaria completada
+[2025-05-11 14:14:03.720] [INFO] [MAIN] - Proceso completado exitosamente

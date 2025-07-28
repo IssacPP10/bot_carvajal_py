@@ -1,0 +1,9 @@
+[2025-05-11 14:01:43.670] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-05-11_process_140143.log
+[2025-05-11 14:01:43.671] [INFO] [MAIN] - Iniciando proceso
+[2025-05-11 14:01:46.363] [INFO] [AUTH] - Iniciando login | Hora de inicio: 02:01:46.363211 PM
+[2025-05-11 14:01:47.184] [INFO] [AUTH] - Navegación: Seleccionado 'Monitor EDC'
+[2025-05-11 14:01:47.942] [INFO] [AUTH] - Credenciales enviadas | 3395/t57973
+[2025-05-11 14:01:49.417] [INFO] [AUTH] - Login exitoso | Redirección completada
+[2025-05-11 14:01:50.718] [INFO] [DIARIA] - Preparando descarga diaria para 2025-05-10
+[2025-05-11 14:02:11.757] [ERROR] [DIARIA] - Fallo en descarga diaria: [WinError 53] No se ha encontrado la ruta de acceso de la red: '\\\\10.79.1.210\\Users\\'
+[2025-05-11 14:02:12.418] [ERROR] [MAIN] - Error: [WinError 53] No se ha encontrado la ruta de acceso de la red: '\\\\10.79.1.210\\Users\\'

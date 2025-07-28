@@ -1,0 +1,54 @@
+[2025-05-23 07:59:39.982] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-05-23_process_075939.log
+[2025-05-23 07:59:39.992] [INFO] [MAIN] - Iniciando proceso
+[2025-05-23 07:59:50.184] [INFO] [AUTH] - Iniciando login | Hora de inicio: 07:59:50.184763 AM
+[2025-05-23 07:59:54.626] [INFO] [AUTH] - Navegación: Seleccionado 'Monitor EDC'
+[2025-05-23 08:00:15.504] [ERROR] [AUTH] - Error durante login | Detalle: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00C4FC03+61635]
+	GetHandleVerifier [0x00C4FC44+61700]
+	(No symbol) [0x00A705D3]
+	(No symbol) [0x00AB899E]
+	(No symbol) [0x00AB8D3B]
+	(No symbol) [0x00B00E12]
+	(No symbol) [0x00ADD2E4]
+	(No symbol) [0x00AFE61B]
+	(No symbol) [0x00ADD096]
+	(No symbol) [0x00AAC840]
+	(No symbol) [0x00AAD6A4]
+	GetHandleVerifier [0x00ED4523+2701795]
+	GetHandleVerifier [0x00ECFCA6+2683238]
+	GetHandleVerifier [0x00EEA9EE+2793134]
+	GetHandleVerifier [0x00C668C5+155013]
+	GetHandleVerifier [0x00C6CFAD+181357]
+	GetHandleVerifier [0x00C57458+92440]
+	GetHandleVerifier [0x00C57600+92864]
+	GetHandleVerifier [0x00C41FF0+5296]
+	BaseThreadInitThunk [0x75796839+25]
+	RtlGetFullPathName_UEx [0x779E906F+1215]
+	RtlGetFullPathName_UEx [0x779E903D+1165]
+ | Screenshot: screenshots\login_error_20250523_080014.png
+[2025-05-23 08:00:16.206] [ERROR] [MAIN] - Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00C4FC03+61635]
+	GetHandleVerifier [0x00C4FC44+61700]
+	(No symbol) [0x00A705D3]
+	(No symbol) [0x00AB899E]
+	(No symbol) [0x00AB8D3B]
+	(No symbol) [0x00B00E12]
+	(No symbol) [0x00ADD2E4]
+	(No symbol) [0x00AFE61B]
+	(No symbol) [0x00ADD096]
+	(No symbol) [0x00AAC840]
+	(No symbol) [0x00AAD6A4]
+	GetHandleVerifier [0x00ED4523+2701795]
+	GetHandleVerifier [0x00ECFCA6+2683238]
+	GetHandleVerifier [0x00EEA9EE+2793134]
+	GetHandleVerifier [0x00C668C5+155013]
+	GetHandleVerifier [0x00C6CFAD+181357]
+	GetHandleVerifier [0x00C57458+92440]
+	GetHandleVerifier [0x00C57600+92864]
+	GetHandleVerifier [0x00C41FF0+5296]
+	BaseThreadInitThunk [0x75796839+25]
+	RtlGetFullPathName_UEx [0x779E906F+1215]
+	RtlGetFullPathName_UEx [0x779E903D+1165]
+

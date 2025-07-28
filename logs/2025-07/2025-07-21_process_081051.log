@@ -1,0 +1,4 @@
+[2025-07-21 08:10:51.093] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-07-21_process_081051.log
+[2025-07-21 08:10:51.093] [INFO] [MAIN] - Iniciando proceso
+[2025-07-21 08:10:55.279] [ERROR] [MAIN] - Error: Message: No se pudo iniciar el navegador Edge: Could not reach host. Are you offline?
+

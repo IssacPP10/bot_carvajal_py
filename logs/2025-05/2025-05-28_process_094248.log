@@ -1,0 +1,33 @@
+[2025-05-28 09:42:48.816] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-05-28_process_094248.log
+[2025-05-28 09:42:48.818] [INFO] [MAIN] - Iniciando proceso
+[2025-05-28 09:42:53.642] [INFO] [AUTH] - Iniciando login | Hora de inicio: 09:42:53.642086 AM
+[2025-05-28 09:42:57.008] [INFO] [AUTH] - Navegación: Seleccionado 'Monitor EDC'
+[2025-05-28 09:42:57.789] [INFO] [AUTH] - Credenciales enviadas | 3395/t57973
+[2025-05-28 09:42:59.963] [INFO] [AUTH] - Login exitoso | Redirección completada
+[2025-05-28 09:43:01.333] [INFO] [DIARIA] - Preparando descarga diaria para 2025-05-27
+[2025-05-28 09:43:01.428] [INFO] [DESCARGA] - Abriendo panel de filtros...
+[2025-05-28 09:43:01.428] [INFO] [BUSCADOR] - Verificando visibilidad del panel de filtros...
+[2025-05-28 09:43:01.447] [INFO] [BUSCADOR] - Panel de filtros está cerrado. Procediendo a abrir...
+[2025-05-28 09:43:01.870] [INFO] [BUSCADOR] - Panel de filtros abierto correctamente.
+[2025-05-28 09:43:01.871] [INFO] [DESCARGA] - Seleccionando cadena CHEDRAUI...
+[2025-05-28 09:43:01.915] [INFO] [DESCARGA] - Configurando filtros para 2025-05-27 a 2025-05-27
+[2025-05-28 09:43:01.915] [INFO] [BUSCADOR] - Configurando fechas: desde='2025-05-27', hasta='2025-05-27'
+[2025-05-28 09:43:02.448] [INFO] [BUSCADOR] - Fechas establecidas en el DOM: desde='2025-05-27', hasta='2025-05-27'
+[2025-05-28 09:43:02.448] [INFO] [DESCARGA] - Ejecutando búsqueda...
+[2025-05-28 09:43:08.008] [INFO] [BUSCADOR] - Configurando paginación a 'Todos'
+[2025-05-28 09:43:09.127] [INFO] [DESCARGA] - Iniciando descarga en \\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-27
+[2025-05-28 09:43:09.127] [DEBUG] [DOWNLOAD] - Parámetros recibidos: Carpeta=\\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-27 | Fechas=2025-05-27→2025-05-27
+[2025-05-28 09:43:10.535] [INFO] [DOWNLOAD] - Iniciando descarga de 9 archivos
+[2025-05-28 09:43:10.854] [INFO] [DOWNLOAD] - OC X3DDRJ descargada directamente
+[2025-05-28 09:43:12.164] [INFO] [DOWNLOAD] - OC X3DDTR descargada directamente
+[2025-05-28 09:43:13.459] [INFO] [DOWNLOAD] - OC X3DDUX descargada directamente
+[2025-05-28 09:43:14.759] [INFO] [DOWNLOAD] - OC X3DDVR descargada directamente
+[2025-05-28 09:43:16.074] [INFO] [DOWNLOAD] - OC X3DDX7 descargada directamente
+[2025-05-28 09:43:17.493] [INFO] [DOWNLOAD] - OC X3DDYZ descargada directamente
+[2025-05-28 09:43:18.855] [INFO] [DOWNLOAD] - OC X3DE1G descargada directamente
+[2025-05-28 09:43:20.178] [INFO] [DOWNLOAD] - OC X3DE27 descargada directamente
+[2025-05-28 09:43:21.461] [INFO] [DOWNLOAD] - OC X3DEIM descargada directamente
+[2025-05-28 09:43:23.298] [INFO] [DOWNLOAD] - Descarga completada en \\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia\2025-05-27
+[2025-05-28 09:43:23.298] [INFO] [DESCARGA] - Proceso de descarga completado
+[2025-05-28 09:43:23.298] [INFO] [DIARIA] - Descarga diaria completada
+[2025-05-28 09:43:24.722] [INFO] [MAIN] - Proceso completado exitosamente
