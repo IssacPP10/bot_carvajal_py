@@ -1,22 +1,27 @@
+from dotenv import load_dotenv
 from datetime import datetime
+import os
+
+load_dotenv()
+
 
 # ——— Credenciales ———
-USUARIO_CARVAJAL = "3395"
-CONTRASENA_CARVAJAL = "t57973"
+USUARIO_CARVAJAL = os.getenv("USUARIO_CARVAJAL")
+CONTRASENA_CARVAJAL = os.getenv("CONTRASENA_CARVAJAL")
 
 # ——— Plataforma Carvajal ———
-URL_LOGIN = "https://contingencia.carvajaltys.mx/"
+URL_LOGIN = os.getenv("URL_LOGIN")
 
 # Rutas de descarga
-RUTA_DESCARGAS_CARVAJAL = r"\\Srvcomplan\oc"
-RUTA_DESCARGAS_CARVAJAL_POR_DIA = r"\\10.79.1.210\Users\ricardo.puentes\Downloads\OC_por_dia"
+RUTA_DESCARGAS_CARVAJAL = os.getenv("RUTA_DESCARGAS_CARVAJAL")
+RUTA_DESCARGAS_CARVAJAL_POR_DIA = os.getenv("RUTA_DESCARGAS_CARVAJAL_POR_DIA")
 
 # ——— Opciones varias ———
 TIEMPO_ESPERA_RESULTADOS = 5
 
 # ——— Telegram Bot ———
-TELEGRAM_BOT_TOKEN = "8120633832:AAFP5lXg5AXwF9lLag3ctyEDhTVODjYemTg"
-TELEGRAM_CHAT_ID = "8145443131"
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def get_hora():
     return datetime.now().strftime("%I:%M:%S.%f %p")
