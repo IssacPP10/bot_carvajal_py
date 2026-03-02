@@ -1,9 +1,18 @@
 from dotenv import load_dotenv
-from datetime import datetime
 import os
+import sys
+from datetime import datetime
 
-load_dotenv()
+# Detectar si es ejecución en .exe (PyInstaller)
+if getattr(sys, 'frozen', False):
+    # Carpeta donde PyInstaller extrae los archivos
+    base_path = sys._MEIPASS
+else:
+    # Carpeta donde está tu script .py
+    base_path = os.path.dirname(os.path.abspath(__file__))
 
+env_path = os.path.join(base_path, ".env")
+load_dotenv(env_path)
 
 # ——— Credenciales ———
 USUARIO_CARVAJAL = os.getenv("USUARIO_CARVAJAL")

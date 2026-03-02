@@ -8,5 +8,10 @@ def enviar_mensaje(mensaje):
         "text": mensaje,
         "parse_mode": "HTML"
     }
-    response = requests.post(url, data=payload)
-    return response
+    try:
+        response = requests.post(url, data=payload, timeout=10)
+        response.raise_for_status()  # lanza error si la respuesta no es 200
+        return response
+    except requests.exceptions.RequestException as e:
+        print(f"⚠️ Error al enviar mensaje a Telegram: {e}")
+        return None

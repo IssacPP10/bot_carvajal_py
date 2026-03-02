@@ -12,21 +12,23 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-def configurar_navegador():
+def configurar_navegador(headless=True):
     try:
         options = Options()
-        
-        # ======================
-        # Configuración General (NO headless)
-        # ======================
-        # options.add_argument("--start-maximized")
-        # options.add_argument("--force-device-scale-factor=1")
 
         # ======================
-        # Configuración Headless (opcional - descomentá para activarlo)
+        # HEADLESS o NO HEADLESS
         # ======================
-        options.add_argument("--headless=new")  # Nueva implementación headless
-        options.add_argument("--window-size=1920,1080")  # Reemplaza --start-maximized
+        if headless:
+            # Headless moderno
+            options.add_argument("--headless=new")
+            options.add_argument("--window-size=1920,1080")
+        else:
+            options.add_argument("--start-maximized")
+
+        # ======================
+        # Opciones generales
+        # ======================
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--no-sandbox")
@@ -36,14 +38,20 @@ def configurar_navegador():
         options.add_argument("--silent")
 
         # ======================
-        # Prevención de detección (opcional)
+        # Prevención de detección
         # ======================
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
-        
-        # User-Agent personalizado (opcional)
-        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+
+        # ======================
+        # User-Agent
+        # ======================
+        user_agent = (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/142.0.0.0 Safari/537.36"
+        )
         options.add_argument(f"user-agent={user_agent}")
 
         # ======================
@@ -57,7 +65,7 @@ def configurar_navegador():
             "profile.default_content_settings.popups": 0,
             "profile.default_content_setting_values.automatic_downloads": 1,
             "credentials_enable_service": False,
-            "profile.password_manager_enabled": False,            
+            "profile.password_manager_enabled": False,
         }
         options.add_experimental_option("prefs", prefs)
 
@@ -66,10 +74,10 @@ def configurar_navegador():
         # ======================
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-        
-        # Configuración adicional recomendada
-        driver.set_page_load_timeout(30)  # 30 segundos máximo para cargar páginas
-        
+
+        # Timeout recomendado
+        driver.set_page_load_timeout(30)
+
         logging.info("Navegador Chrome configurado correctamente")
         return driver
 

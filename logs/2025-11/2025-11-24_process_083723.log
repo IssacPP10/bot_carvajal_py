@@ -1,0 +1,4 @@
+[2025-11-24 08:37:23.408] [INFO] [SYSTEM] - Logger inicializado | Archivo: 2025-11-24_process_083723.log
+[2025-11-24 08:37:23.426] [INFO] [MAIN] - Iniciando proceso
+[2025-11-24 08:37:24.924] [ERROR] [MAIN] - Error: Message: No se pudo iniciar el navegador: name 'RUTA_ARCHIVO' is not defined
+
